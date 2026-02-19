@@ -12,10 +12,10 @@
 
 # Использование
 Просто поместите этот мод в директорию модов игры, в которой у Вас хранятся супы.
- 
- 
- 
-### 🇺🇸 IN ENGLISH
+
+--- 
+
+### 🇺🇸 IN ENGLISH:
 
 # Description
 In the **[SoupAPI](https://modrinth.com/mod/soup-api)** mod version **3.0.0-beta**, when connecting to servers in the game, the mod refers to the hosting hardcoded in the modification and attempts to obtain individual configuration for the server from it. The problem is that if the hosting does not respond to the request, SoupAPI stuck the entire game until the request timed out.
