@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "soupapi-3-srvfix",
+	"version": "${version}",
+	"name": "SoupAPI-3-srvfix",
+	"description": "Disables the ServerConfigManager and SSLHelper modules in SoupAPI-3.0.0-beta to fix the problem with long loading of the world on servers",
+	"authors": [
+		"Twintle"
+	],
+	"contact": {
+		"homepage": "none",
+		"sources": "none"
+	},
+	"license": "Unlicense",
+	"icon": "assets/soupapi-3-srvfix/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"soupapi-3-srvfix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"soupapi": "3.0.0-beta"
+	}
+}

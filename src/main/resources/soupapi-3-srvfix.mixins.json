@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "su.twintle.soupapisrvfixer.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ServerConfigManagerMixin",
+		"SSLHelperMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
